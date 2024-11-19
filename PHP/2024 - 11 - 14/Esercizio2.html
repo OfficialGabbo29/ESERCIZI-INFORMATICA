@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 3px solid blue; /* Imposta il bordo della tabella */
+            }
+            td {
+                width: 20px;
+                height: 30px;
+                border: 1px solid blue; /* Imposta il bordo per ogni cella */
+            }
+            tr {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <table cellspacing="0">
+            <?php
+                $count = 1;
+                $countNumero = 1;
+                while ($count <= 20) {
+                    echo "<tr>";
+                    for ($i = 0; $i < 20; $i++) {
+                        $numero = 3 * $countNumero;
+                        echo "<td> $numero </td>";
+                        $countNumero++;
+                    }
+                    echo "</tr>";
+                    $count += 1;
+                }
+            ?>
+        </table>
+    </body>
+</html>

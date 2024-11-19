@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        table { border-collapse: collapse; }
+        td { width: 20px; height: 30px; }
+    </head>
+    <body>
+        <table>
+            <?php
+                $count=1;
+                $countNumero=1;
+                while($count<=20){
+                    echo "<tr>";
+                    for($i=0; $i<20; $i++){
+                    	$numero=3*$countNumero;
+                        echo "<td> $numero </td>";
+                        $countNumero++;
+                    }
+                    echo "</tr>";
+                    $count+=1;
+                }
+            ?>
+        </table>
+    </body>
+</html>
