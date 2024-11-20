@@ -36,17 +36,21 @@
                 for($i=0; $i < count($nameProdotti); $i++){
                     $tot=totale($prodotti,$nameProdotti[$i]);
                     $prodotto=$prodotti[$nameProdotti[$i]];
+                    $nameProdotto=$nameProdotti[$i];
+                    $prezzo=$prodotto["prezzo"]; 
+                    $quantita=$prodotto["quantita"];
                     echo "<TR>
-                        <TD>"$nameProdotti[$i]"</TD>
-                        <TD>"$prodotto["prezzo"]"</TD>
-                        <TD>"$prodotto["quantita"]"</TD>
-                        <TD>"$tot"</TD>
+                        <TD>$nameProdotto</TD>
+                        <TD>$prezzo</TD>
+                        <TD>$quantita</TD>
+                        <TD>$tot</TD>
                     </TR>";
                 }
 
+                $calcoloComplessivo1=calcoloTotaleComplessivo($prodotti,$nameProdotti);
                 echo "<TR>
-                    <TD>"TOTALE COMPLESSIVO"</TD>
-                    <TD>"calcoloTotaleComplessivo($prodotti,$nameProdotti)"</TD>
+                    <TD>TOTALE COMPLESSIVO</TD>
+                    <TD>$calcoloComplessivo1</TD>
                 </TR>";
 
 
