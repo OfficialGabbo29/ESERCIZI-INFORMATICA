@@ -9,6 +9,7 @@
             $valore="Ciao";
             echo "Stringa iniziale: $valore ";
             aggiungiSuffisso($valore);
+            echo "<BR>";
             echo " Stringa finale: $valore";
         ?>
     </body>
