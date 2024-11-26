@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Alice",
+        "age": 20,
+        "grades": [7.5, 8.0, 6.5, 9.0],
+        "status": "passed"
+    },
+    {
+        "name": "Bob",
+        "age": 22,
+        "grades": [4.5, 5.0, 5.5, 6.0],
+        "status": "failed"
+    },
+    {
+        "name": "Charlie",
+        "age": 21,
+        "grades": [8.0, 7.5, 9.0, 8.5],
+        "status": "passed"
+    },
+    {
+        "name": "David",
+        "age": 23,
+        "grades": [5.0, 4.5, 6.0, 5.5],
+        "status": "failed"
+    }
+]
