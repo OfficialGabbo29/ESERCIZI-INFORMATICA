@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    border: 3px solid black; /* Imposta il bordo della tabella */
+}
+td {
+    width: 20px;
+    height: 30px;
+    border: 1px solid black; /* Imposta il bordo per ogni cella */
+}
+th {
+    width: 20px;
+    height: 30px;
+    border: 1px solid black; /* Imposta il bordo per ogni cella */
+    background-color: darkgray;
+}
+tr {
+    color: black; /* righe di una tabella */
+} 
+h1 {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    text-align:center;
+}
+.ciao{
+    text-align:center;
+}
