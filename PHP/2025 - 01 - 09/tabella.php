@@ -1,3 +1,7 @@
+<?php
+session_start(); // Avvia la sessione
+if(isset($_SESSION['username'])){
+?>
 <!DOCTYPE = html>
 <html>
     <head>
@@ -11,3 +15,4 @@
         </table>
     </body>
 </html>
+<?php } ?>

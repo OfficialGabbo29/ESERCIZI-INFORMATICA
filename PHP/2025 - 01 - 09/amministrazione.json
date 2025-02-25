@@ -1,0 +1,31 @@
+{
+    "medici": [
+      {
+        "nome": "Curci",
+        "cognome": "Curci",
+        "reparto": "Cardiologia"
+      },
+      {
+        "nome": "Francesca",
+        "cognome": "Bianchi",
+        "reparto": "Neurologia"
+      },
+      {
+        "nome": "Luca",
+        "cognome": "Verdi",
+        "reparto": "Ortopedia"
+      }
+    ],
+    "login": [
+      {
+        "username": "Alessandro",
+        "password": "1234",
+        "tipo": "Amministratore"
+      },
+      {
+        "username": "Curci",
+        "password": "12345",
+        "tipo": "Medico"
+      }
+    ]
+  }
