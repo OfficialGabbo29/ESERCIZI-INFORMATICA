@@ -1,0 +1,15 @@
+INSERT INTO magazzino(citta, cap, mq) values ("Brugherio", 20861, 1000);
+INSERT INTO magazzino(citta, cap, mq) values ("Milano", 20019, 300);
+INSERT INTO magazzino(citta, cap, mq) values ("Mantova", 46100, 500);
+INSERT INTO utenti(mat, nome, cognome) values (1000000000, "Gabriele", "Curci");
+INSERT INTO utenti(mat, nome, cognome) values (1000000001, "Paolo", "Mandelli");
+INSERT INTO utenti(mat, nome, cognome) values (1000000002, "Laura", "Valli");
+INSERT INTO sede(citta, via, cap, id_magazzino) values ("Brugherio", "ilaria alpi 10", "20861", 1);
+INSERT INTO sede(citta, via, cap, id_magazzino) values ("Mantova", "prova", "46100", 3);
+INSERT INTO sede(citta, via, cap, id_magazzino) values ("Milano", "prova1", "46100", 2);
+INSERT INTO frequentazione(id_sede, mat_utenti) values(3, 1000000002);
+INSERT INTO frequentazione(id_sede, mat_utenti) values(3, 1000000001);
+INSERT INTO frequentazione(id_sede, mat_utenti) values(1, 1000000000);
+INSERT INTO telefono(telefono, id_sede) values(6123598472,1);
+INSERT INTO telefono(telefono, id_sede) values(6123598478,2);
+INSERT INTO telefono(telefono, id_sede) values(6123598475,3);

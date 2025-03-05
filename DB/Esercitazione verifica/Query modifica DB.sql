@@ -1,0 +1,2 @@
+ALTER TABLE STUDENTI add column telefono varchar(20);
+DROP TABLE ISCRIZIONI;
